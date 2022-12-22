@@ -13,7 +13,7 @@ Currently
 https://github.com/Hacking-NASSA-with-HTML/backend_nikky_pedia_1_01
 
 
-FRONT-END deployed on https://cyc-nikky-pedia.netlify.app 
+FRONT-END deployed on https://nikky-pedia-c.netlify.app/
 
 
 
