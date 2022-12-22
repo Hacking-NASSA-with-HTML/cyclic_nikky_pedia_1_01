@@ -64,7 +64,7 @@ const Form = () => {
         formData.append("picturePath", values.picture.name);
 
         const savedUserResponse = await fetch(
-            "https://nikky-pedia-backend.up.railway.app/auth/register",
+            "https://dead-lime-scorpion-cap.cyclic.app/auth/register",
             {
                 method: "POST",
                 body: formData,
@@ -79,7 +79,7 @@ const Form = () => {
     };
 
     const login = async (values, onSubmitProps) => {
-        const loggedInResponse = await fetch("https://nikky-pedia-backend.up.railway.app/auth/login", {
+        const loggedInResponse = await fetch("https://dead-lime-scorpion-cap.cyclic.app/auth/login", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(values),

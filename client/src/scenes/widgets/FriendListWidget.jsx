@@ -13,7 +13,7 @@ const FriendListWidget = ({ userId }) => {
 
     const getFriends = async () => {
         const response = await fetch(
-            `https://nikky-pedia-backend.up.railway.app/users/${userId}/friends`,
+            `https://dead-lime-scorpion-cap.cyclic.app/users/${userId}/friends`,
             {
                 method: "GET",
                 headers: { Authorization: `Bearer ${token}` },
